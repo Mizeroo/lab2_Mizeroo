@@ -5,6 +5,7 @@ This is a Python program that compares two essays and determines if plagiarism h
 
 ---
 
+
 ## Project Structure
 
 ```
