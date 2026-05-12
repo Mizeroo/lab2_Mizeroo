@@ -82,6 +82,7 @@ def search_word(word, counts1, counts2):
         return False
 ```
 ### 5. Comparing Essays — Sets
+
 ```python
 set1 = set(words1)
 set2 = set(words2)
