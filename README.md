@@ -9,10 +9,10 @@ This is a Python program that compares two essays and determines if plagiarism h
 
 ```
 lab2/
-├── plagiarism_detector.py   ← my  main Python script
-├── essay1.txt               ← first essay
-├── essay2.txt               ← second essay
-└── README.md                ← this file
+├── plagiarism_detector.py  ← my  main Python script
+├──   README.md             ← this file
+├── essay1.txt              ← first essay
+└── essay2.txt             ← second essay
 ```
 
 ## Key Concepts Used
