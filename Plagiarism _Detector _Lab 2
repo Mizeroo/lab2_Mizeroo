@@ -4,7 +4,7 @@ import string
 
 # Step2: opening and cleaning essay1
 
-with open("c:\\Users\\DELL\\Downloads\\essay-1.txt", "r") as file:
+with open("essay-1.txt", "r") as file:
     essay1 = file.read()
 essay1 = essay1.lower()
 essay1 = essay1.translate(str.maketrans("", "", string.punctuation))
@@ -12,7 +12,7 @@ words1 = essay1.split()
 
 # Step3: opening and cleaning essay2
 
-with open("c:\\Users\\DELL\\Downloads\\essay-2.txt", "r") as file:
+with open("essay-2.txt", "r") as file:
     essay2 = file.read()
 essay2 = essay2.lower()
 essay2 = essay2.translate(str.maketrans("", "", string.punctuation))
