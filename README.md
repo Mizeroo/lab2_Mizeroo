@@ -17,7 +17,7 @@ lab2/
 
 ## Key Concepts Used
 
-### 1. File Handling — `open()`
+### 1. File Handling : `open()`
 Reading the essay files using the `with` statement:
 ```python
 with open("essay1.txt", "r") as file:
@@ -39,12 +39,12 @@ essay2 = essay2.lower()
 essay2 = essay2.translate(str.maketrans("", "", string.punctuation))
 words2 = essay2.split()
 ```
-- `.lower()` — makes everything lowercase
-- `.translate()` — removes punctuation
-- `.split()` — breaks text into a list of individual words
+- `.lower()` : makes everything lowercase
+- `.translate()` : removes punctuation
+- `.split()` : breaks text into a list of individual words
   
 
-### 3. Counting Words — Dictionary
+### 3. Counting Words : Dictionary
 ```python
 dictionary1 = {}
 for word in words1:
@@ -59,7 +59,7 @@ for word in words2:
     if word in dictionary2:
         dictionary2[word] = dictionary2[word] + 1
     else:
-        dictionary1[word] = 1
+        dictionary2[word] = 1
 ```
 
 
@@ -67,21 +67,21 @@ for word in words2:
 
 ### 4. Search Function
 ```python
-def search_word(word, counts1, counts2):
-    if word in counts1 or word in counts2:
-        if word in counts1:
-            print("Appears in essay 1:", counts1[word], "times")
+def search_word(word, dictionary1, dictionary2):
+    if word in dictionary1 or word in dictionary2:
+        if word in dictionary1:
+            print(f"{word} appears in essay1: {dictionary1[word]} times")
         else:
-            print("Does not appear in essay 1")
-        if word in counts2:
-            print("Appears in essay 2:", counts2[word], "times")
+            print(f"{word} does not appear in essay1")
+        if word in dictionary2:
+            print(f"{word} appears in essay2: {dictionary2[word]} times")
         else:
-            print("Does not appear in essay 2")
+            print(f"{word} does not appear in essay2")
         return True
     else:
         return False
 ```
-### 5. Comparing Essays — Sets
+### 5. Comparing Essays :  Sets
 
 ```python
 set1 = set(words1)
