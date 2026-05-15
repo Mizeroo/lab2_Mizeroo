@@ -125,8 +125,8 @@ python plagiarism_detector.py
 
 ## Learning Outcomes
 
-- File Handling — reading and processing text files
-- Data Structures — lists, sets, and dictionaries
-- String Manipulation — cleaning and splitting text
-- Loops and Iteration — counting and comparing words
-- Input/Output — searching words and displaying results
+- File Handling : reading and processing text files
+- Data Structures : lists, sets, and dictionaries
+- String Manipulation : cleaning and splitting text
+- Loops and Iteration : counting and comparing words
+- Input/Output : searching words and displaying results
