@@ -64,7 +64,7 @@ set2 = set(words2)
 intersection = set1 & set2
 union = set1 | set2
 
-plagialism = (len(intersection)/ len(union)) * 100
+plagialism% = (len(intersection)/ len(union)) * 100
 
 # Making decision
 
